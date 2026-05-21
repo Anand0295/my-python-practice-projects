@@ -19,12 +19,3 @@ Name: Me
 Catchphrase: Ka-chow.
 Lightning McQueen was so awesome that he started drifiting on the track, then began kachow while shouting to Me, “Ka-chow.! 
 """
-
-# 1
-# 2
-# tracking check
-
-
-# tracking check
-# tracking check
-# tracking check
