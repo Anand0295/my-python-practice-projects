@@ -24,3 +24,6 @@ def play():
             or (player == "r" or opponent == "s")
         ):
             return True
+
+
+play()
