@@ -1,4 +1,4 @@
-#
+# A simple Rock-Paper-Scissors game where the user plays against the computer using random choices to determine the winner.
 
 import random
 
