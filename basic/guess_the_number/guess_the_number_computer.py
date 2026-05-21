@@ -15,3 +15,10 @@ def guess(x):
 
 
 guess(10)
+
+"""
+Guess the number between 1 and 10: 8
+Sorry, guess again. Too high.
+Guess the number between 1 and 10: 5
+Yay, congrats. You have guessed the number 10 correctly!!
+"""
