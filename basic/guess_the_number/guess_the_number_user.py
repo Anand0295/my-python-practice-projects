@@ -1,4 +1,5 @@
-# The guessing game where computer has to guess the number using 'random.randint' method by importing 'random' module the user has thought of
+# A reverse guessing game where the computer tries to guess the number chosen by the user using random guesses and feedback to narrow down the correct answer.
+
 
 import random
 
