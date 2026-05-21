@@ -29,3 +29,9 @@ def is_win(player, opponent):
 
 
 play()
+
+"""
+What's your choice? 'r' for rock, 'p' for paper, 's' for scissors. r
+you lost.
+
+"""
