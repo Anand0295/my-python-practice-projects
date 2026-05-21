@@ -6,3 +6,5 @@ def play():
 
     if user==computer:
         print('its a tie')
+
+    #
