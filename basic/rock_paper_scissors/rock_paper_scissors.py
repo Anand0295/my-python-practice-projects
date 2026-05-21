@@ -10,5 +10,7 @@ def play():
     #s>p, p>r, r>s
 
     def is_win(player, opponent):
+        #return true if player wins
+        #s>p, p>r, r>s
         if (player =='s' and opponent=='p') or (player=='p' and opponent=='r') or (player=='r' or opponent=='s'):
             return True
