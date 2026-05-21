@@ -11,7 +11,8 @@ def play():
     elif is_win(user, computer):
         print("you Won!!")
 
-    print("you lost.")
+    elif is_win(computer, user):
+        print("you lost.")
 
     # s>p, p>r, r>s
 
