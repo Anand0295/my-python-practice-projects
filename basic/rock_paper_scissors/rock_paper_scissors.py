@@ -6,6 +6,11 @@ def play():
 
     if user==computer:
         print('its a tie')
+    
+    if is_win(user, computer):
+        print('you Won!!')
+    
+    print('you lost.')
 
     #s>p, p>r, r>s
 
