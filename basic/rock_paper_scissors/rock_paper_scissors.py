@@ -8,7 +8,7 @@ def play():
     if user == computer:
         print("its a tie")
 
-    if is_win(user, computer):
+    elif is_win(user, computer):
         print("you Won!!")
 
         print("you lost.")
