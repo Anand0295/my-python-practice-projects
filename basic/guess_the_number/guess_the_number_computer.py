@@ -1,3 +1,5 @@
+# The guessing game where computer generates a random number using 'random.randint' method by importing 'random' module, which the user has to guess
+
 import random
 
 
