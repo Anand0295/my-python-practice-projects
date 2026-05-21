@@ -8,4 +8,7 @@ def play():
         print('its a tie')
 
     #s>p, p>r, r>s
-    
+
+    def is_win(player, opponent):
+        if (player =='s' and opponent=='p') or (player=='p' and opponent=='r') or (player=='r' or opponent=='s'):
+            return True
