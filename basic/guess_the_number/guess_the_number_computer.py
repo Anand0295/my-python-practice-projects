@@ -1,4 +1,4 @@
-# The guessing game where computer generates a random number using 'random.randint' method by importing 'random' module, which the user has to guess
+# A number guessing game where the computer generates a random number and the user tries to guess it using hints until they find the correct answer.
 
 import random
 
