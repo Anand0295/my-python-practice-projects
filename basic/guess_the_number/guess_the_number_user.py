@@ -13,7 +13,7 @@ def computer_guess(x):
         else:
             guess = low
         feedback = input(
-            f"Is {guess} too high (H) too low (L) or correct (C) ??"
+            f"Is {guess} too high (H) too low (L) or correct (C) ??: "
         ).lower()
         if feedback == "h":
             high = guess - 1
@@ -23,4 +23,10 @@ def computer_guess(x):
     print(f"Yay, The computer has guessed the number {guess} correctly!!")
 
 
-computer_guess(10)
+computer_guess(1000)
+
+"""
+Is 265 too high (H) too low (L) or correct (C) ??: h
+Is 256 too high (H) too low (L) or correct (C) ??: c
+Yay, The computer has guessed the number 256 correctly!!
+"""
