@@ -10,6 +10,8 @@ cp = input("Catchphrase: ")
 madlibs = f"Lightning McQueen was so {adj} that he started {verb1} on the track, then began {verb2} while shouting to {name}, “{cp}! "
 
 print(madlibs)
+
+
 """
 Verb: drifiting
 Verb: kachow

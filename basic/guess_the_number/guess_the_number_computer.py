@@ -20,14 +20,18 @@ def guess(x):
 
 guess(10)
 
-
-"""
 # random_number = 7
 
-Guess: 8 → 8 > 7 → Too high
-Guess: 5 → 5 < 7 → Too low
-Guess: 7 → correct → win
+# Guess: 8 → 8 > 7 → Too high
+# Guess: 5 → 5 < 7 → Too low
+# Guess: 7 → correct → win
 
 # guess != random_number → loop continues
 # guess == random_number → loop stops
+
+"""
+Guess the number between 1 and 10: 5
+Sorry, guess again. Too high.
+Guess the number between 1 and 10: 3
+Yay, congrats. You have guessed the number 10 correctly!!
 """

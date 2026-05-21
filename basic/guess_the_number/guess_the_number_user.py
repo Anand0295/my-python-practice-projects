@@ -25,6 +25,15 @@ def computer_guess(x):
 
 computer_guess(1000)
 
+# low = 1, high = 1000
+
+# Guess: 265 → H → high = 264
+# Guess: 256 → C → win
+
+# low increases when L
+# high decreases when H
+# loop continues until C
+
 """
 Is 265 too high (H) too low (L) or correct (C) ??: h
 Is 256 too high (H) too low (L) or correct (C) ??: c
