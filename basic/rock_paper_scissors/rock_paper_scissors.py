@@ -22,7 +22,7 @@ def is_win(player, opponent):
     if (
         (player == "s" and opponent == "p")
         or (player == "p" and opponent == "r")
-        or (player == "r" or opponent == "s")
+        or (player == "r" and opponent == "s")
     ):
         return True
 
