@@ -63,3 +63,189 @@ def hangman():
 
 if __name__ == "__main__":
     hangman()
+
+
+"""
+You have 7 lives left and you have used these letters:  
+
+Current word:  - - - - -
+Guess a letter: h
+
+Your letter, H is not in the word.
+You have 6 lives left and you have used these letters:  H
+
+               |
+               |
+               |
+               |
+               |
+            
+Current word:  - - - - -
+Guess a letter: e
+
+Your letter, E is not in the word.
+You have 5 lives left and you have used these letters:  H E
+
+                ___________
+               | /        
+               |/        
+               |          
+               |          
+               |
+            
+Current word:  - - - - -
+Guess a letter: l
+
+You have 5 lives left and you have used these letters:  H L E
+
+                ___________
+               | /        
+               |/        
+               |          
+               |          
+               |
+            
+Current word:  - L - - -
+Guess a letter: f
+
+Your letter, F is not in the word.
+You have 4 lives left and you have used these letters:  H L E F
+
+                ___________
+               | /        | 
+               |/        
+               |          
+               |          
+               |
+            
+Current word:  - L - - -
+Guess a letter: s
+
+You have 4 lives left and you have used these letters:  H S F L E
+
+                ___________
+               | /        | 
+               |/        
+               |          
+               |          
+               |
+            
+Current word:  - L - S S
+Guess a letter: f 
+
+You have already used that letter. Guess another letter.
+You have 4 lives left and you have used these letters:  H S F L E
+
+                ___________
+               | /        | 
+               |/        
+               |          
+               |          
+               |
+            
+Current word:  - L - S S
+Guess a letter: o
+
+Your letter, O is not in the word.
+You have 3 lives left and you have used these letters:  O H S F L E
+
+                ___________
+               | /        | 
+               |/        ( )
+               |          
+               |          
+               |
+            
+Current word:  - L - S S
+Guess a letter: 
+
+That is not a valid letter.
+You have 3 lives left and you have used these letters:  O H S F L E
+
+                ___________
+               | /        | 
+               |/        ( )
+               |          
+               |          
+               |
+            
+Current word:  - L - S S
+Guess a letter: f
+
+You have already used that letter. Guess another letter.
+You have 3 lives left and you have used these letters:  O H S F L E
+
+                ___________
+               | /        | 
+               |/        ( )
+               |          
+               |          
+               |
+            
+Current word:  - L - S S
+Guess a letter: f
+
+You have already used that letter. Guess another letter.
+You have 3 lives left and you have used these letters:  O H S F L E
+
+                ___________
+               | /        | 
+               |/        ( )
+               |          
+               |          
+               |
+            
+Current word:  - L - S S
+Guess a letter: f
+
+You have already used that letter. Guess another letter.
+You have 3 lives left and you have used these letters:  O H S F L E
+
+                ___________
+               | /        | 
+               |/        ( )
+               |          
+               |          
+               |
+            
+Current word:  - L - S S
+Guess a letter: w
+
+Your letter, W is not in the word.
+You have 2 lives left and you have used these letters:  O H S F W L E
+
+                ___________
+               | /        | 
+               |/        ( )
+               |          |
+               |          
+               |
+            
+Current word:  - L - S S
+Guess a letter: z
+
+Your letter, Z is not in the word.
+You have 1 lives left and you have used these letters:  Z O H S F W L E
+
+                ___________
+               | /        | 
+               |/        ( )
+               |          |
+               |         / 
+               |
+            
+Current word:  - L - S S
+Guess a letter: x
+
+Your letter, X is not in the word.
+
+                ___________
+               | /        | 
+               |/        ( )
+               |          |
+               |         / \
+               |
+           
+You died, sorry. The word was GLASS
+anand@Anands-MacBook-Pro my-python-practice-projects % 
+"""
