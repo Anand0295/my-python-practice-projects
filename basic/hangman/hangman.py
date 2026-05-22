@@ -2,4 +2,4 @@ import random
 
 
 def get_valid_word(words):
-    words = random.choice(words)
+    word = random.choice(words)
